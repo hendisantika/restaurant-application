@@ -9,7 +9,7 @@
     <packaging>jar</packaging>
 
     <name>restaurant</name>
-    <name>Restaurant :: Application</name>
+    <description>Restaurant :: Application</description>
 
     <parent>
         <groupId>com.hendisantika</groupId>
@@ -35,6 +35,10 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-jpa</artifactId>
         </dependency>
 
         <dependency>
