@@ -1,4 +1,4 @@
-package com.hendisantika.restaurant;
+package com.hendisantika.restaurant.domain;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
